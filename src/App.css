@@ -1,5 +1,8 @@
+
 .App {
   text-align: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 .App-logo {
@@ -35,4 +38,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bg1 {
+  position: fixed;
+  bottom: 0px;
+  aspect-ratio: 760/195;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg2 {
+  position: fixed;
+  bottom: 0px;
+  aspect-ratio: 760/195;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+*{
+    /* background-color: #1e252b; */
+}
+
+.main{
+    width: 700px;
+    border-radius: 15px;
+    background-color: #5b93be;
+    justify-content:space-around;
+}
+
+.top{
+    height: 60px;
+    background-color: #363e45;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+    font-family: 'Recursive', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    /* background-color: #5b5656; */
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 28px;
+    border-radius: 15px;
+    font-family: 'Recursive', sans-serif;
+}
+
+.day{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.temp{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sunrise-sunset{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 16px;
+}
+
+.description{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.button{
+    width: 35px;
+    height: 35px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, var(--cores-dancantes));
+    border-radius: 10px;
+    z-index: 999;
+    animation: coresDancantes 2s linear infinite;
+}
+
+@keyframes coresDancantes {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
